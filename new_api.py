@@ -7,7 +7,6 @@ app = FastAPI()
 testo = ""
 
 @app.get("/input")
-
 def user(testo):
     lingua = detect(testo)
     return f"La lingua rilevata è: {lingua}"
