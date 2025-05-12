@@ -3,7 +3,7 @@
 from fastapi import FastAPI
 #creare un'istanza della classe FASTAPI.
 app = FastAPI()
-#variabile globale di una lista vuota che utilizzerò negli altri metodi
+#variabile globale di una lista vuota che utilizzerò nelle funzioni
 nome_lista = []
 #oggetto app, get è il metodo API, tra virgolette c'è il path.
 @app.get("/")
